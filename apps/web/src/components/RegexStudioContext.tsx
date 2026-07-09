@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import React, { createContext, useContext, useEffect } from 'react';
+import React, { createContext, useContext, useEffect, useCallback, useMemo } from 'react';
 import LZString from 'lz-string';
 import { ASTNode, RegexProject, AnalysisIssue } from '@regex-studio/regex-core';
 import { compileAST, compileFlags } from '@regex-studio/regex-compiler';
@@ -174,7 +174,9 @@ export const RegexStudioProvider: React.FC<{ children: React.ReactNode }> = ({ c
   const updateASTAction = useASTStore((s) => s.updateAST);
   const importRegExpAction = useASTStore((s) => s.importRegExp);
 
-  const history = useHistoryStore((s) => [...s.past, ...(s.present ? [s.present] : [])]);
+  const past = useHistoryStore((s) => s.past);
+  const present = useHistoryStore((s) => s.present);
+  const history = useMemo(() => [...past, ...(present ? [present] : [])], [past, present]);
   const historyIndex = useHistoryStore((s) => s.past.length);
   const pastDescriptions = useHistoryStore((s) => s.pastDescriptions);
   const futureDescriptions = useHistoryStore((s) => s.futureDescriptions);
@@ -191,6 +193,8 @@ export const RegexStudioProvider: React.FC<{ children: React.ReactNode }> = ({ c
       commitToHistory(activeProject, description);
     }
   };
+
+
 
   // Initialize projects on startup from IndexedDB Dexie
   useEffect(() => {
@@ -231,9 +235,9 @@ export const RegexStudioProvider: React.FC<{ children: React.ReactNode }> = ({ c
   }, [initProjects, clearHistory]);
 
   // Hook to commit new edits into the history manager
-  const commitProjectState = (newProjectState: RegexProject) => {
+  const commitProjectState = useCallback((newProjectState: RegexProject) => {
     commitToHistory(newProjectState);
-  };
+  }, [commitToHistory]);
 
   // Compile and Analyze Live from state
   const compiledRegex = activeProject ? compileAST(activeProject.ast) : '';
@@ -249,74 +253,74 @@ export const RegexStudioProvider: React.FC<{ children: React.ReactNode }> = ({ c
     : [];
 
   // Wrappers matching standard interfaces
-  const updateAST = (newAST: ASTNode[]) => {
+  const updateAST = useCallback((newAST: ASTNode[]) => {
     if (!activeProject) return;
     updateASTAction(newAST);
     const updated = useProjectStore.getState().activeProject;
     if (updated) commitProjectState(updated);
-  };
+  }, [activeProject, updateASTAction, commitProjectState]);
 
-  const updateFlags = (newFlags: RegexProject['flags']) => {
+  const updateFlags = useCallback((newFlags: RegexProject['flags']) => {
     if (!activeProject) return;
     updateProjectProperties({ flags: newFlags });
     const updated = useProjectStore.getState().activeProject;
     if (updated) commitProjectState(updated);
-  };
+  }, [activeProject, updateProjectProperties, commitProjectState]);
 
-  const updateSampleText = (text: string) => {
+  const updateSampleText = useCallback((text: string) => {
     if (!activeProject) return;
     updateProjectProperties({ sampleText: text });
     const updated = useProjectStore.getState().activeProject;
     if (updated) commitProjectState(updated);
-  };
+  }, [activeProject, updateProjectProperties, commitProjectState]);
 
-  const updateNotes = (notes: string) => {
+  const updateNotes = useCallback((notes: string) => {
     if (!activeProject) return;
     updateProjectProperties({ notes });
     const updated = useProjectStore.getState().activeProject;
     if (updated) commitProjectState(updated);
-  };
+  }, [activeProject, updateProjectProperties, commitProjectState]);
 
-  const updateProjectName = (name: string) => {
+  const updateProjectName = useCallback((name: string) => {
     if (!activeProject) return;
     updateProjectProperties({ name });
     const updated = useProjectStore.getState().activeProject;
     if (updated) commitProjectState(updated);
-  };
+  }, [activeProject, updateProjectProperties, commitProjectState]);
 
-  const createNewProject = async (name = 'Untitled Project') => {
+  const createNewProject = useCallback(async (name = 'Untitled Project') => {
     const newProj = await createNewProjectAction(name);
     clearHistory(newProj);
     setSelectedNodeId(null);
-  };
+  }, [createNewProjectAction, clearHistory, setSelectedNodeId]);
 
-  const saveCurrentProject = () => {
+  const saveCurrentProject = useCallback(() => {
     saveCurrentProjectAction();
-  };
+  }, [saveCurrentProjectAction]);
 
-  const loadProject = async (id: string) => {
+  const loadProject = useCallback(async (id: string) => {
     await loadProjectAction(id);
     const loaded = useProjectStore.getState().activeProject;
     if (loaded) {
       clearHistory(loaded);
     }
     setSelectedNodeId(null);
-  };
+  }, [loadProjectAction, clearHistory, setSelectedNodeId]);
 
-  const deleteProject = (id: string) => {
+  const deleteProject = useCallback((id: string) => {
     deleteProjectAction(id);
-  };
+  }, [deleteProjectAction]);
 
-  const duplicateProject = async (id: string) => {
+  const duplicateProject = useCallback(async (id: string) => {
     await duplicateProjectAction(id);
     const duplicated = useProjectStore.getState().activeProject;
     if (duplicated) {
       clearHistory(duplicated);
     }
     setSelectedNodeId(null);
-  };
+  }, [duplicateProjectAction, clearHistory, setSelectedNodeId]);
 
-  const importRegExp = (pattern: string, flagsStr?: string): boolean => {
+  const importRegExp = useCallback((pattern: string, flagsStr?: string): boolean => {
     const success = importRegExpAction(pattern, flagsStr);
     if (success) {
       const updated = useProjectStore.getState().activeProject;
@@ -324,9 +328,9 @@ export const RegexStudioProvider: React.FC<{ children: React.ReactNode }> = ({ c
       setSelectedNodeId(null);
     }
     return success;
-  };
+  }, [importRegExpAction, commitProjectState, setSelectedNodeId]);
 
-  const getShareUrl = (): string => {
+  const getShareUrl = useCallback((): string => {
     if (!activeProject) return '';
     const shareData = {
       ast: activeProject.ast,
@@ -336,7 +340,7 @@ export const RegexStudioProvider: React.FC<{ children: React.ReactNode }> = ({ c
     const compressed = encodeShareState(shareData);
     const origin = window.location.origin + window.location.pathname;
     return `${origin}#/share/${compressed}`;
-  };
+  }, [activeProject]);
 
   // Safe fallback to prevent rendering crash before initialization finishes
   const fallbackProject: RegexProject = DEFAULT_PROJECTS[0];

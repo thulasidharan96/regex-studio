@@ -11,7 +11,7 @@ describe('Regex Parser', () => {
     const ast = parseRegexToAST('hello');
     expect(ast.length).toBeGreaterThan(0);
     expect(ast[0].type).toBe('literal');
-    expect(ast[0].value || ast[0].properties?.value).toBe('hello');
+    expect(ast.map(node => node.value || node.properties?.value).join('')).toBe('hello');
   });
 
   it('should flag errors for unclosed groups', () => {

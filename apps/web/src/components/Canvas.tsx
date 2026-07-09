@@ -537,6 +537,7 @@ export const Canvas: React.FC = () => {
 
   // Adapter converting Regex AST to React Flow Nodes & Edges layout
   useEffect(() => {
+
     const tempNodes: Node[] = [];
     const tempEdges: Edge[] = [];
 
@@ -666,7 +667,7 @@ export const Canvas: React.FC = () => {
       </div>
 
       {/* React Flow Board */}
-      <div className="flex-1 min-h-0 relative">
+      <div id="regex-canvas-container" className="flex-1 min-h-0 relative">
         <ReactFlow
           nodes={nodes}
           edges={edges}
