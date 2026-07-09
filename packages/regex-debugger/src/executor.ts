@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import { DebugStep, ASTNode } from '@regex-studio/regex-core';
+import { DebugStep, ASTNode } from '@thulasidharan96/regex-core';
 import { generateDebugSteps } from './index';
 
 export class DebuggerExecutor {

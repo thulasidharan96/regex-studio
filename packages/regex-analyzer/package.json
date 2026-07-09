@@ -1,5 +1,5 @@
 {
-  "name": "@regex-studio/regex-analyzer",
+  "name": "@thulasidharan96/regex-analyzer",
   "version": "3.0.0",
   "description": "Static AST parsing analyzer and catastrophic backtracking scanner for Regex Studio",
   "license": "Apache-2.0",
@@ -14,7 +14,7 @@
     "lint": "tsc --noEmit"
   },
   "dependencies": {
-    "@regex-studio/regex-core": "*"
+    "@thulasidharan96/regex-core": "*"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"

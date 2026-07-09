@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import { ASTNode, generateId } from '@regex-studio/regex-core';
+import { ASTNode, generateId } from '@thulasidharan96/regex-core';
 import { FlowNode, FlowEdge, FlowGraph } from './types';
 
 export function getNodeLabel(node: ASTNode): string {

@@ -5,7 +5,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { useRegexStudio } from './RegexStudioContext';
-import { ASTNode, CharacterType, BoundaryType, GroupType, LookaroundType, QuantifierType, RangeItem } from '@regex-studio/regex-core';
+import { ASTNode, CharacterType, BoundaryType, GroupType, LookaroundType, QuantifierType, RangeItem } from '@thulasidharan96/regex-core';
 import { 
   Settings, 
   Trash2, 

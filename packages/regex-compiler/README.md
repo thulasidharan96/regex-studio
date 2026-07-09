@@ -1,4 +1,4 @@
-# @regex-studio/regex-compiler
+# @thulasidharan96/regex-compiler
 
 A multi-target translation compilation engine that transforms Regex Studio AST representations into standard string expressions compatible with major programming language platforms.
 
@@ -11,7 +11,7 @@ A multi-target translation compilation engine that transforms Regex Studio AST r
 ## Installation
 
 ```bash
-npm install @regex-studio/regex-compiler
+npm install @thulasidharan96/regex-compiler
 ```
 
 ## License

@@ -5,7 +5,7 @@
 
 import React, { useState, useMemo } from 'react';
 import { useRegexStudio } from '../RegexStudioContext';
-import { templatesRegistry } from '@regex-studio/templates';
+import { templatesRegistry } from '@thulasidharan96/templates';
 import { TemplateCard } from './TemplateCard';
 import { TemplatePreview } from './TemplatePreview';
 import { Search, Compass } from 'lucide-react';

@@ -4,7 +4,7 @@
  */
 
 import React, { useEffect, useRef } from 'react';
-import { DebugStep } from '@regex-studio/regex-core';
+import { DebugStep } from '@thulasidharan96/regex-core';
 import { CheckCircle, AlertTriangle, Cpu, Play } from 'lucide-react';
 
 interface TimelineProps {

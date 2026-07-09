@@ -1,5 +1,5 @@
 {
-  "name": "@regex-studio/flow-engine",
+  "name": "@thulasidharan96/flow-engine",
   "version": "3.0.0",
   "description": "Visual React Flow node mapping, connection layout logic, and edge engine for Regex Studio",
   "license": "Apache-2.0",
@@ -14,7 +14,7 @@
     "lint": "tsc --noEmit"
   },
   "dependencies": {
-    "@regex-studio/regex-core": "*",
+    "@thulasidharan96/regex-core": "*",
     "reactflow": "^11.11.4"
   },
   "publishConfig": {

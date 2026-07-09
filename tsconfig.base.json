@@ -20,18 +20,18 @@
     "noEmit": true,
     "baseUrl": ".",
     "paths": {
-      "@regex-studio/regex-core": ["packages/regex-core/src"],
-      "@regex-studio/regex-parser": ["packages/regex-parser/src"],
-      "@regex-studio/regex-compiler": ["packages/regex-compiler/src"],
-      "@regex-studio/regex-debugger": ["packages/regex-debugger/src"],
-      "@regex-studio/regex-analyzer": ["packages/regex-analyzer/src"],
-      "@regex-studio/regex-exporters": ["packages/regex-exporters/src"],
-      "@regex-studio/regex-intelligence": ["packages/regex-intelligence/src"],
-      "@regex-studio/regex-diff": ["packages/regex-diff/src"],
-      "@regex-studio/regex-generator": ["packages/regex-generator/src"],
-      "@regex-studio/storage": ["packages/storage/src"],
-      "@regex-studio/stores": ["packages/stores/src"],
-      "@regex-studio/ui": ["packages/ui/src"]
+      "@thulasidharan96/regex-core": ["packages/regex-core/src"],
+      "@thulasidharan96/regex-parser": ["packages/regex-parser/src"],
+      "@thulasidharan96/regex-compiler": ["packages/regex-compiler/src"],
+      "@thulasidharan96/regex-debugger": ["packages/regex-debugger/src"],
+      "@thulasidharan96/regex-analyzer": ["packages/regex-analyzer/src"],
+      "@thulasidharan96/regex-exporters": ["packages/regex-exporters/src"],
+      "@thulasidharan96/regex-intelligence": ["packages/regex-intelligence/src"],
+      "@thulasidharan96/regex-diff": ["packages/regex-diff/src"],
+      "@thulasidharan96/regex-generator": ["packages/regex-generator/src"],
+      "@thulasidharan96/storage": ["packages/storage/src"],
+      "@thulasidharan96/stores": ["packages/stores/src"],
+      "@thulasidharan96/ui": ["packages/ui/src"]
     }
   }
 }

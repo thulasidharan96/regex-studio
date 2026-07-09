@@ -48,6 +48,6 @@ The codebase is organized as a Bun monorepo structure to keep core engines disti
 
 ## Package Dependency Principles
 
-- **UI Isolation**: Packages (under `/packages`) are strictly pure TypeScript packages. They must **not** import React or render UI directly (with the sole exception of the shared primitives in `@regex-studio/ui`).
-- **Single Source of Truth**: `@regex-studio/regex-core` defines the AST Node TypeScript types, validating schemas, and version schemas. All other modules depend on `regex-core` as their core dependency.
-- **Directional Imports**: No package may import from `@regex-studio/web`. Circular dependencies are prohibited.
+- **UI Isolation**: Packages (under `/packages`) are strictly pure TypeScript packages. They must **not** import React or render UI directly (with the sole exception of the shared primitives in `@thulasidharan96/ui`).
+- **Single Source of Truth**: `@thulasidharan96/regex-core` defines the AST Node TypeScript types, validating schemas, and version schemas. All other modules depend on `regex-core` as their core dependency.
+- **Directional Imports**: No package may import from `@thulasidharan96/web`. Circular dependencies are prohibited.

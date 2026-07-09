@@ -4,7 +4,7 @@
  */
 
 import * as Comlink from 'comlink';
-import { analyzeAST, performanceScore } from '@regex-studio/regex-analyzer';
+import { analyzeAST, performanceScore } from '@thulasidharan96/regex-analyzer';
 
 const workerAPI = {
   analyzeAsync(ast: any[]) {

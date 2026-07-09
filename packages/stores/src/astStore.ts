@@ -4,8 +4,8 @@
  */
 
 import { create } from 'zustand';
-import { ASTNode } from '@regex-studio/regex-core';
-import { parseRegexToAST } from '@regex-studio/regex-parser';
+import { ASTNode } from '@thulasidharan96/regex-core';
+import { parseRegexToAST } from '@thulasidharan96/regex-parser';
 import { useProjectStore } from './projectStore';
 
 export interface ASTState {

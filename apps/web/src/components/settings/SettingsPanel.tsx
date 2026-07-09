@@ -4,7 +4,7 @@
  */
 
 import React from 'react';
-import { useSettingsStore } from '@regex-studio/stores';
+import { useSettingsStore } from '@thulasidharan96/stores';
 import { Settings, Sliders, Keyboard, HelpCircle, Monitor } from 'lucide-react';
 
 export const SettingsPanel: React.FC = () => {

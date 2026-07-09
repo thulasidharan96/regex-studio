@@ -1,5 +1,5 @@
 {
-  "name": "@regex-studio/regex-core",
+  "name": "@thulasidharan96/regex-core",
   "version": "3.0.0",
   "description": "Core AST definitions, validation schemas, and serialization engine for Regex Studio",
   "license": "Apache-2.0",

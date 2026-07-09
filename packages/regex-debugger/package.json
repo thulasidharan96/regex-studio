@@ -1,5 +1,5 @@
 {
-  "name": "@regex-studio/regex-debugger",
+  "name": "@thulasidharan96/regex-debugger",
   "version": "3.0.0",
   "description": "Simulation and backtracking state execution debugger for Regex Studio AST",
   "license": "Apache-2.0",
@@ -14,7 +14,7 @@
     "lint": "tsc --noEmit"
   },
   "dependencies": {
-    "@regex-studio/regex-core": "*"
+    "@thulasidharan96/regex-core": "*"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"

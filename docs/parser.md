@@ -1,6 +1,6 @@
 # Regex Studio Parser
 
-The `@regex-studio/regex-parser` package is responsible for compiling standard regular expression strings into the visual Abstract Syntax Tree (AST) structures used across the application.
+The `@thulasidharan96/regex-parser` package is responsible for compiling standard regular expression strings into the visual Abstract Syntax Tree (AST) structures used across the application.
 
 ## Parser Pipeline
 

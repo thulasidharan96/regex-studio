@@ -4,7 +4,7 @@
  */
 
 import * as Comlink from 'comlink';
-import { compileAST } from '@regex-studio/regex-compiler';
+import { compileAST } from '@thulasidharan96/regex-compiler';
 
 const workerAPI = {
   compileAsync(ast: any[], options?: any): string {

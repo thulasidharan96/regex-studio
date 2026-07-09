@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import { ASTNode, DebugStep, CharacterType, BoundaryType } from '@regex-studio/regex-core';
+import { ASTNode, DebugStep, CharacterType, BoundaryType } from '@thulasidharan96/regex-core';
 
 export function generateDebugSteps(nodes: ASTNode[], sampleText: string): DebugStep[] {
   const steps: DebugStep[] = [];

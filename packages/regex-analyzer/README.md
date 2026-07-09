@@ -1,4 +1,4 @@
-# @regex-studio/regex-analyzer
+# @thulasidharan96/regex-analyzer
 
 Static analysis, linting, and safety validation engine for visual Regex Studio AST structures.
 
@@ -11,7 +11,7 @@ Static analysis, linting, and safety validation engine for visual Regex Studio A
 ## Installation
 
 ```bash
-npm install @regex-studio/regex-analyzer
+npm install @thulasidharan96/regex-analyzer
 ```
 
 ## License

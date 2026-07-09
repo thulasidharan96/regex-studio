@@ -1,4 +1,4 @@
-# @regex-studio/flow-engine
+# @thulasidharan96/flow-engine
 
 Visual canvas node and connection layout logic wrapping React Flow to manage interactive visual regular expression nodes.
 
@@ -10,7 +10,7 @@ Visual canvas node and connection layout logic wrapping React Flow to manage int
 ## Installation
 
 ```bash
-npm install @regex-studio/flow-engine
+npm install @thulasidharan96/flow-engine
 ```
 
 ## License

@@ -5,7 +5,7 @@
 
 import React, { useState, useEffect, useMemo } from 'react';
 import { useRegexStudio } from '../RegexStudioContext';
-import { generateDebugSteps } from '@regex-studio/regex-debugger';
+import { generateDebugSteps } from '@thulasidharan96/regex-debugger';
 import { Timeline } from './Timeline';
 import { ExecutionStep } from './ExecutionStep';
 import { CaptureViewer } from './CaptureViewer';

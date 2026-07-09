@@ -4,8 +4,8 @@
  */
 
 import { create } from 'zustand';
-import { RegexProject } from '@regex-studio/regex-core';
-import { db } from '@regex-studio/storage';
+import { RegexProject } from '@thulasidharan96/regex-core';
+import { db } from '@thulasidharan96/storage';
 
 function generateId(): string {
   return Math.random().toString(36).substring(2, 9);

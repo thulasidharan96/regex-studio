@@ -20,7 +20,7 @@ export interface Exporter {
 ### Example Implementation
 
 ```typescript
-import { registerExporter } from '@regex-studio/regex-exporters';
+import { registerExporter } from '@thulasidharan96/regex-exporters';
 
 registerExporter({
   name: "Zod Schema",
@@ -58,7 +58,7 @@ export interface Analyzer {
 ### Example Implementation
 
 ```typescript
-import { registerAnalyzer } from '@regex-studio/regex-analyzer';
+import { registerAnalyzer } from '@thulasidharan96/regex-analyzer';
 
 registerAnalyzer({
   name: "Avoid Lazy Any",
@@ -91,7 +91,7 @@ Templates populate the library of standard starting expressions.
 ### Structure
 
 ```typescript
-import { ASTNode } from '@regex-studio/regex-core';
+import { ASTNode } from '@thulasidharan96/regex-core';
 
 export const customTemplate = {
   id: 'subdomain',

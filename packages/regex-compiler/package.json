@@ -1,5 +1,5 @@
 {
-  "name": "@regex-studio/regex-compiler",
+  "name": "@thulasidharan96/regex-compiler",
   "version": "3.0.0",
   "description": "Multi-language target compilation engine for Regex Studio AST",
   "license": "Apache-2.0",
@@ -14,7 +14,7 @@
     "lint": "tsc --noEmit"
   },
   "dependencies": {
-    "@regex-studio/regex-core": "*"
+    "@thulasidharan96/regex-core": "*"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"

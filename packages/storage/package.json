@@ -1,5 +1,5 @@
 {
-  "name": "@regex-studio/storage",
+  "name": "@thulasidharan96/storage",
   "version": "3.0.0",
   "description": "Offline IndexedDB local storage synchronization engine for Regex Studio documents",
   "license": "Apache-2.0",
@@ -14,7 +14,7 @@
     "lint": "tsc --noEmit"
   },
   "dependencies": {
-    "@regex-studio/regex-core": "*",
+    "@thulasidharan96/regex-core": "*",
     "dexie": "^4.4.4"
   },
   "publishConfig": {

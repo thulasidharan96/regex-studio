@@ -1,4 +1,4 @@
-# @regex-studio/templates
+# @thulasidharan96/templates
 
 A pre-packaged library registry containing high-quality standard regular expression templates complete with pre-compiled AST visual layouts.
 
@@ -10,7 +10,7 @@ A pre-packaged library registry containing high-quality standard regular express
 ## Installation
 
 ```bash
-npm install @regex-studio/templates
+npm install @thulasidharan96/templates
 ```
 
 ## License

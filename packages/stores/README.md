@@ -1,4 +1,4 @@
-# @regex-studio/stores
+# @thulasidharan96/stores
 
 Global React state management stores using Zustand, orchestrating canvas state, visual updates, parse feedback, and automatic background storage saving.
 
@@ -10,7 +10,7 @@ Global React state management stores using Zustand, orchestrating canvas state, 
 ## Installation
 
 ```bash
-npm install @regex-studio/stores
+npm install @thulasidharan96/stores
 ```
 
 ## License

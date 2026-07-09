@@ -5,8 +5,8 @@
 
 import React, { useMemo } from 'react';
 import { useRegexStudio } from '../RegexStudioContext';
-import { useSettingsStore } from '@regex-studio/stores';
-import { performanceScore } from '@regex-studio/regex-analyzer';
+import { useSettingsStore } from '@thulasidharan96/stores';
+import { performanceScore } from '@thulasidharan96/regex-analyzer';
 import { CheckCircle2, AlertCircle, Eye, Activity, Sparkles, HardDrive, ShieldAlert } from 'lucide-react';
 
 export const StatusBar: React.FC = () => {

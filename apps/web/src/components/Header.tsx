@@ -5,7 +5,7 @@
 
 import React, { useState } from 'react';
 import { useRegexStudio } from './RegexStudioContext';
-import { useSettingsStore } from '@regex-studio/stores';
+import { useSettingsStore } from '@thulasidharan96/stores';
 import { 
   FolderOpen, 
   Plus, 

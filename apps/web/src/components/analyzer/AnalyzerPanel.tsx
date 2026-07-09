@@ -5,11 +5,11 @@
 
 import React, { useMemo } from 'react';
 import { useRegexStudio } from '../RegexStudioContext';
-import { analyzeAST, performanceScore } from '@regex-studio/regex-analyzer';
+import { analyzeAST, performanceScore } from '@thulasidharan96/regex-analyzer';
 import { ScoreCard } from './ScoreCard';
 import { IssueCard } from './IssueCard';
 import { Sparkles, Trophy, ShieldCheck } from 'lucide-react';
-import { ASTNode } from '@regex-studio/regex-core';
+import { ASTNode } from '@thulasidharan96/regex-core';
 
 export const AnalyzerPanel: React.FC = () => {
   const { activeProject, updateAST, setSelectedNodeId, commitWithDescription } = useRegexStudio();

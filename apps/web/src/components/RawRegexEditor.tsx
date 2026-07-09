@@ -6,7 +6,7 @@
 import React, { useState, useEffect } from 'react';
 import Editor from '@monaco-editor/react';
 import { useRegexStudio } from './RegexStudioContext';
-import { parseRegexToAST } from '@regex-studio/regex-parser';
+import { parseRegexToAST } from '@thulasidharan96/regex-parser';
 import { AlertCircle, CheckCircle, RefreshCw, Sparkles, Terminal } from 'lucide-react';
 
 export const RawRegexEditor: React.FC = () => {

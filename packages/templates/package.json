@@ -1,5 +1,5 @@
 {
-  "name": "@regex-studio/templates",
+  "name": "@thulasidharan96/templates",
   "version": "3.0.0",
   "description": "Pre-compiled regular expression template registry library for Regex Studio",
   "license": "Apache-2.0",
@@ -9,7 +9,7 @@
   },
   "types": "./src/index.ts",
   "dependencies": {
-    "@regex-studio/regex-core": "*"
+    "@thulasidharan96/regex-core": "*"
   },
   "scripts": {
     "build": "tsc --noEmit",

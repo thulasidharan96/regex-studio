@@ -4,7 +4,7 @@
  */
 
 import * as Comlink from 'comlink';
-import { generateDebugSteps } from '@regex-studio/regex-debugger';
+import { generateDebugSteps } from '@thulasidharan96/regex-debugger';
 
 const workerAPI = {
   debugAsync(ast: any[], sampleText: string) {

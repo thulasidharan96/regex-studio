@@ -5,7 +5,7 @@
 
 import React, { useState, useMemo } from 'react';
 import { useRegexStudio } from '../RegexStudioContext';
-import { generateExporters } from '@regex-studio/regex-exporters';
+import { generateExporters } from '@thulasidharan96/regex-exporters';
 import { LanguageSelector } from './LanguageSelector';
 import { CodePreview } from './CodePreview';
 

@@ -4,7 +4,7 @@
  */
 
 import Dexie, { type Table } from 'dexie';
-import { RegexProject } from '@regex-studio/regex-core';
+import { RegexProject } from '@thulasidharan96/regex-core';
 
 export interface StoredProject extends RegexProject {
   description?: string;

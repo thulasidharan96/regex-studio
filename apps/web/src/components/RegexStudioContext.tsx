@@ -5,15 +5,15 @@
 
 import React, { createContext, useContext, useEffect, useCallback, useMemo } from 'react';
 import LZString from 'lz-string';
-import { ASTNode, RegexProject, AnalysisIssue } from '@regex-studio/regex-core';
-import { compileAST, compileFlags } from '@regex-studio/regex-compiler';
-import { analyzeAST } from '@regex-studio/regex-analyzer';
+import { ASTNode, RegexProject, AnalysisIssue } from '@thulasidharan96/regex-core';
+import { compileAST, compileFlags } from '@thulasidharan96/regex-compiler';
+import { analyzeAST } from '@thulasidharan96/regex-analyzer';
 import {
   useProjectStore,
   useASTStore,
   useCanvasStore,
   useHistoryStore,
-} from '@regex-studio/stores';
+} from '@thulasidharan96/stores';
 
 // URL Compression Helpers using lz-string
 export function encodeShareState(state: { ast: ASTNode[]; flags: RegexProject['flags']; sampleText: string }): string {

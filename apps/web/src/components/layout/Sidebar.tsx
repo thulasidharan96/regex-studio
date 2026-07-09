@@ -5,9 +5,9 @@
 
 import React, { useState } from 'react';
 import { useRegexStudio } from '../RegexStudioContext';
-import { useSettingsStore } from '@regex-studio/stores';
-import { templatesRegistry } from '@regex-studio/templates';
-import { ASTNode } from '@regex-studio/regex-core';
+import { useSettingsStore } from '@thulasidharan96/stores';
+import { templatesRegistry } from '@thulasidharan96/templates';
+import { ASTNode } from '@thulasidharan96/regex-core';
 import { 
   FolderPlus, 
   Search, 

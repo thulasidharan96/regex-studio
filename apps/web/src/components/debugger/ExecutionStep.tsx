@@ -4,7 +4,7 @@
  */
 
 import React from 'react';
-import { DebugStep } from '@regex-studio/regex-core';
+import { DebugStep } from '@thulasidharan96/regex-core';
 import { Target, ArrowRight, CornerDownRight, RotateCcw } from 'lucide-react';
 
 interface ExecutionStepProps {

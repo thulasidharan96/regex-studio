@@ -54,17 +54,17 @@ For comprehensive structural descriptions, see:
 
 Our codebase is split into 11 specialized, decoupled Bun workspaces:
 
-- `@regex-studio/regex-core`: Types, validators, and serializers.
-- `@regex-studio/regex-parser`: String parsing pipeline (Tokenizer ➔ Lexer ➔ Parser).
-- `@regex-studio/regex-compiler`: Generator engine producing string representations for JavaScript, Python, Go, etc.
-- `@regex-studio/regex-analyzer`: Linting tool catching backtracking issues and calculating efficiency scores.
-- `@regex-studio/regex-debugger`: stepper tracking matching states and trace lines.
-- `@regex-studio/regex-exporters`: Exporters wrapping expressions into third-party libraries (Zod, Ajv, etc.).
-- `@regex-studio/storage`: IndexedDB state synchronizers.
-- `@regex-studio/stores`: Zustand global state managers.
-- `@regex-studio/ui`: Styling primitives and design tokens.
-- `@regex-studio/flow-engine`: React Flow visual nodes layout builder.
-- `@regex-studio/templates`: Registry of preset standard regex configurations.
+- `@thulasidharan96/regex-core`: Types, validators, and serializers.
+- `@thulasidharan96/regex-parser`: String parsing pipeline (Tokenizer ➔ Lexer ➔ Parser).
+- `@thulasidharan96/regex-compiler`: Generator engine producing string representations for JavaScript, Python, Go, etc.
+- `@thulasidharan96/regex-analyzer`: Linting tool catching backtracking issues and calculating efficiency scores.
+- `@thulasidharan96/regex-debugger`: stepper tracking matching states and trace lines.
+- `@thulasidharan96/regex-exporters`: Exporters wrapping expressions into third-party libraries (Zod, Ajv, etc.).
+- `@thulasidharan96/storage`: IndexedDB state synchronizers.
+- `@thulasidharan96/stores`: Zustand global state managers.
+- `@thulasidharan96/ui`: Styling primitives and design tokens.
+- `@thulasidharan96/flow-engine`: React Flow visual nodes layout builder.
+- `@thulasidharan96/templates`: Registry of preset standard regex configurations.
 
 ---
 
@@ -107,7 +107,7 @@ We use **Changesets** to log version bumps. Every pull request that introduces f
    ```bash
    bun run changeset
    ```
-2. Follow the prompt to select which package(s) were changed (e.g. `@regex-studio/regex-core`), designate the version type (major/minor/patch), and write a summary.
+2. Follow the prompt to select which package(s) were changed (e.g. `@thulasidharan96/regex-core`), designate the version type (major/minor/patch), and write a summary.
 3. Commit the generated `.changeset/*.md` file alongside your changes.
 
 ---

@@ -1,4 +1,4 @@
-# @regex-studio/regex-debugger
+# @thulasidharan96/regex-debugger
 
 Interactive simulation engine that models step-by-step regex matching execution, backtracks, success, and failure branches directly in the client.
 
@@ -11,7 +11,7 @@ Interactive simulation engine that models step-by-step regex matching execution,
 ## Installation
 
 ```bash
-npm install @regex-studio/regex-debugger
+npm install @thulasidharan96/regex-debugger
 ```
 
 ## License

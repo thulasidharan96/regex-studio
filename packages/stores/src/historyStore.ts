@@ -4,7 +4,7 @@
  */
 
 import { create } from 'zustand';
-import { RegexProject } from '@regex-studio/regex-core';
+import { RegexProject } from '@thulasidharan96/regex-core';
 import { useProjectStore } from './projectStore';
 
 export interface HistoryState {

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import { ASTNode, generateId, Quantifier } from '@regex-studio/regex-core';
+import { ASTNode, generateId, Quantifier } from '@thulasidharan96/regex-core';
 import { Token, TokenType } from './tokenizer';
 import { Lexer } from './lexer';
 import { ParserError } from './errors';

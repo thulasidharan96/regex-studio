@@ -4,7 +4,7 @@
  */
 
 import React, { useState } from 'react';
-import { AnalysisIssue } from '@regex-studio/regex-analyzer';
+import { AnalysisIssue } from '@thulasidharan96/regex-analyzer';
 import { AlertCircle, AlertTriangle, Info, HelpCircle, ArrowRight, Check } from 'lucide-react';
 
 interface IssueCardProps {

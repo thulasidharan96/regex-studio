@@ -4,7 +4,7 @@
  */
 
 import React from 'react';
-import { useSettingsStore } from '@regex-studio/stores';
+import { useSettingsStore } from '@thulasidharan96/stores';
 import { Canvas } from '../Canvas';
 import { RawRegexEditor } from '../RawRegexEditor';
 

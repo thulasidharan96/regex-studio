@@ -105,7 +105,7 @@ interface Quantifier {
 
 ## Core AST Utilities
 
-Located in `@regex-studio/regex-core`:
+Located in `@thulasidharan96/regex-core`:
 
 - `createNode(type, properties)`: Safely initializes a new Node with a unique UUID.
 - `walkAST(nodes, callback)`: Depth-first visitor pattern traversing nodes.

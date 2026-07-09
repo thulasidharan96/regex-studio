@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import { ASTNode, RangeItem } from '@regex-studio/regex-core';
+import { ASTNode, RangeItem } from '@thulasidharan96/regex-core';
 
 /**
  * Returns a random character within a specified character range.

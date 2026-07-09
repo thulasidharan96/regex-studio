@@ -5,7 +5,7 @@
 
 import React, { useState } from 'react';
 import { useRegexStudio } from './RegexStudioContext';
-import { ASTNode, CharacterType, BoundaryType, GroupType, LookaroundType } from '@regex-studio/regex-core';
+import { ASTNode, CharacterType, BoundaryType, GroupType, LookaroundType } from '@thulasidharan96/regex-core';
 import { 
   Type, 
   Hash, 

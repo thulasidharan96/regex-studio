@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import { DebugStep } from '@regex-studio/regex-core';
+import { DebugStep } from '@thulasidharan96/regex-core';
 
 export function formatTraceLog(steps: DebugStep[]): string {
   return steps

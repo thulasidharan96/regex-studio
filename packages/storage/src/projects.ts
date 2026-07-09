@@ -8,7 +8,7 @@ import {
   RegexDocument, 
   migrateProjectToDocument, 
   migrateDocumentToProject 
-} from '@regex-studio/regex-core';
+} from '@thulasidharan96/regex-core';
 
 function generateId(): string {
   return Math.random().toString(36).substring(2, 9);

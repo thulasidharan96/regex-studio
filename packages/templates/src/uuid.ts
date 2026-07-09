@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import { ASTNode } from '@regex-studio/regex-core';
+import { ASTNode } from '@thulasidharan96/regex-core';
 
 export const uuidTemplate = {
   id: 'uuid',

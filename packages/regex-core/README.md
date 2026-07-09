@@ -1,4 +1,4 @@
-# @regex-studio/regex-core
+# @thulasidharan96/regex-core
 
 The foundation and single source of truth for regular expression Abstract Syntax Trees (AST) in Regex Studio v3.
 
@@ -12,7 +12,7 @@ The foundation and single source of truth for regular expression Abstract Syntax
 ## Installation
 
 ```bash
-npm install @regex-studio/regex-core
+npm install @thulasidharan96/regex-core
 ```
 
 ## License

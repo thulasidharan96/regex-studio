@@ -4,7 +4,7 @@
  */
 
 import React, { useState, useMemo } from 'react';
-import { useProjectStore } from '@regex-studio/stores';
+import { useProjectStore } from '@thulasidharan96/stores';
 import { ProjectToolbar } from './ProjectToolbar';
 import { ProjectCard } from './ProjectCard';
 import { Folder } from 'lucide-react';

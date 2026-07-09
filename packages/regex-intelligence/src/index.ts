@@ -3,8 +3,8 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import { ASTNode, Quantifier } from '@regex-studio/regex-core';
-import { compileAST } from '@regex-studio/regex-compiler';
+import { ASTNode, Quantifier } from '@thulasidharan96/regex-core';
+import { compileAST } from '@thulasidharan96/regex-compiler';
 
 /**
  * Explains a single AST node in plain English.

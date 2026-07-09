@@ -5,7 +5,7 @@
 
 import React, { useState, useMemo } from 'react';
 import { useRegexStudio } from '../RegexStudioContext';
-import { useProjectStore } from '@regex-studio/stores';
+import { useProjectStore } from '@thulasidharan96/stores';
 import { Play, Plus, Trash2, CheckCircle, AlertTriangle, HelpCircle } from 'lucide-react';
 
 interface TestCase {

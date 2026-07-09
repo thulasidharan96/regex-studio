@@ -18,8 +18,8 @@ import ReactFlow, {
 } from 'reactflow';
 import 'reactflow/dist/style.css';
 import { useRegexStudio } from './RegexStudioContext';
-import { ASTNode } from '@regex-studio/regex-core';
-import { compileASTNode } from '@regex-studio/regex-compiler';
+import { ASTNode } from '@thulasidharan96/regex-core';
+import { compileASTNode } from '@thulasidharan96/regex-compiler';
 import {
   Trash2,
   Copy,

@@ -1,4 +1,4 @@
-# @regex-studio/regex-exporters
+# @thulasidharan96/regex-exporters
 
 Ready-to-use exporter libraries and structural schema templates that wrap compiled expressions for standard library validators and schema systems.
 
@@ -10,7 +10,7 @@ Ready-to-use exporter libraries and structural schema templates that wrap compil
 ## Installation
 
 ```bash
-npm install @regex-studio/regex-exporters
+npm install @thulasidharan96/regex-exporters
 ```
 
 ## License

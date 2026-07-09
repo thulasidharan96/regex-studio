@@ -1,5 +1,5 @@
 {
-  "name": "@regex-studio/stores",
+  "name": "@thulasidharan96/stores",
   "version": "3.0.0",
   "description": "Zustand application global state and persistence orchestration stores for Regex Studio",
   "license": "Apache-2.0",
@@ -14,9 +14,9 @@
     "lint": "tsc --noEmit"
   },
   "dependencies": {
-    "@regex-studio/regex-core": "*",
-    "@regex-studio/regex-parser": "*",
-    "@regex-studio/storage": "*",
+    "@thulasidharan96/regex-core": "*",
+    "@thulasidharan96/regex-parser": "*",
+    "@thulasidharan96/storage": "*",
     "zustand": "^5.0.14"
   },
   "publishConfig": {

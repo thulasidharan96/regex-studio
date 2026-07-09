@@ -5,7 +5,7 @@
 
 import React, { useState, useEffect, useMemo, useRef } from 'react';
 import { useRegexStudio } from './RegexStudioContext';
-import { useSettingsStore } from '@regex-studio/stores';
+import { useSettingsStore } from '@thulasidharan96/stores';
 import { Search, Terminal, Plus, FolderOpen, Sliders, ShieldAlert, FileCode, Moon, Settings, Sparkles } from 'lucide-react';
 
 export const CommandPalette: React.FC = () => {

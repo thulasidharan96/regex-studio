@@ -4,7 +4,7 @@
  */
 
 import React, { useState } from 'react';
-import { RegexProject } from '@regex-studio/regex-core';
+import { RegexProject } from '@thulasidharan96/regex-core';
 import { Star, Copy, Trash2, Edit2, Check, X, Tag, Calendar } from 'lucide-react';
 
 interface ProjectCardProps {

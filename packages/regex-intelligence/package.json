@@ -1,5 +1,5 @@
 {
-  "name": "@regex-studio/regex-intelligence",
+  "name": "@thulasidharan96/regex-intelligence",
   "version": "4.0.0",
   "description": "Smart regex explanation, suggestion, and optimization passes for Regex Studio",
   "license": "Apache-2.0",
@@ -11,7 +11,7 @@
     "lint": "tsc --noEmit"
   },
   "peerDependencies": {
-    "@regex-studio/regex-core": "^3.0.0"
+    "@thulasidharan96/regex-core": "^3.0.0"
   },
   "devDependencies": {
     "typescript": "^5.3.3"

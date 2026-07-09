@@ -1,6 +1,6 @@
 # Regex Studio Compiler
 
-The `@regex-studio/regex-compiler` module is responsible for compiling the interactive Abstract Syntax Tree (AST) back into standard, optimized, engine-compliant regular expression strings.
+The `@thulasidharan96/regex-compiler` module is responsible for compiling the interactive Abstract Syntax Tree (AST) back into standard, optimized, engine-compliant regular expression strings.
 
 ## Compiler Architecture
 
@@ -41,7 +41,7 @@ Different engines support different subsets of features. The compiler handles th
 ### Example Compilation
 
 ```typescript
-import { compileAST } from '@regex-studio/regex-compiler';
+import { compileAST } from '@thulasidharan96/regex-compiler';
 
 const myAST = [
   { id: '1', type: 'character', properties: { charType: 'digit' } }

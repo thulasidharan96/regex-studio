@@ -1,4 +1,4 @@
-# @regex-studio/regex-parser
+# @thulasidharan96/regex-parser
 
 An advanced, fault-tolerant regular expression parser that compiles standard regex strings into fully structured Abstract Syntax Trees (ASTs).
 
@@ -11,7 +11,7 @@ An advanced, fault-tolerant regular expression parser that compiles standard reg
 ## Installation
 
 ```bash
-npm install @regex-studio/regex-parser
+npm install @thulasidharan96/regex-parser
 ```
 
 ## License

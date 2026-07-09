@@ -1,5 +1,5 @@
 {
-  "name": "@regex-studio/regex-parser",
+  "name": "@thulasidharan96/regex-parser",
   "version": "3.0.0",
   "description": "Fault-tolerant regular expression parsing and tokenization engine for Regex Studio",
   "license": "Apache-2.0",
@@ -14,7 +14,7 @@
     "lint": "tsc --noEmit"
   },
   "dependencies": {
-    "@regex-studio/regex-core": "*"
+    "@thulasidharan96/regex-core": "*"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"

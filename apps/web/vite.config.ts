@@ -10,43 +10,43 @@ export default defineConfig(() => {
 		resolve: {
 			alias: {
 				"@": path.resolve(__dirname, "."),
-				"@regex-studio/regex-core": path.resolve(
+				"@thulasidharan96/regex-core": path.resolve(
 					__dirname,
 					"../../packages/regex-core/src/index.ts",
 				),
-				"@regex-studio/regex-parser": path.resolve(
+				"@thulasidharan96/regex-parser": path.resolve(
 					__dirname,
 					"../../packages/regex-parser/src/index.ts",
 				),
-				"@regex-studio/regex-compiler": path.resolve(
+				"@thulasidharan96/regex-compiler": path.resolve(
 					__dirname,
 					"../../packages/regex-compiler/src/index.ts",
 				),
-				"@regex-studio/regex-debugger": path.resolve(
+				"@thulasidharan96/regex-debugger": path.resolve(
 					__dirname,
 					"../../packages/regex-debugger/src/index.ts",
 				),
-				"@regex-studio/regex-analyzer": path.resolve(
+				"@thulasidharan96/regex-analyzer": path.resolve(
 					__dirname,
 					"../../packages/regex-analyzer/src/index.ts",
 				),
-				"@regex-studio/regex-exporters": path.resolve(
+				"@thulasidharan96/regex-exporters": path.resolve(
 					__dirname,
 					"../../packages/regex-exporters/src/index.ts",
 				),
-				"@regex-studio/templates": path.resolve(
+				"@thulasidharan96/templates": path.resolve(
 					__dirname,
 					"../../packages/templates/src/index.ts",
 				),
-				"@regex-studio/storage": path.resolve(
+				"@thulasidharan96/storage": path.resolve(
 					__dirname,
 					"../../packages/storage/src/index.ts",
 				),
-				"@regex-studio/stores": path.resolve(
+				"@thulasidharan96/stores": path.resolve(
 					__dirname,
 					"../../packages/stores/src/index.ts",
 				),
-				"@regex-studio/ui": path.resolve(
+				"@thulasidharan96/ui": path.resolve(
 					__dirname,
 					"../../packages/ui/src/index.ts",
 				),

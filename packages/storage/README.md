@@ -1,4 +1,4 @@
-# @regex-studio/storage
+# @thulasidharan96/storage
 
 Robust client-side local offline persistence adapter wrapping IndexedDB schemas (via Dexie) for seamless, auto-saving document states.
 
@@ -10,7 +10,7 @@ Robust client-side local offline persistence adapter wrapping IndexedDB schemas 
 ## Installation
 
 ```bash
-npm install @regex-studio/storage
+npm install @thulasidharan96/storage
 ```
 
 ## License
