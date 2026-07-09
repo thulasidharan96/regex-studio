@@ -16,5 +16,8 @@
   "dependencies": {
     "@regex-studio/regex-core": "*",
     "reactflow": "^11.11.4"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }

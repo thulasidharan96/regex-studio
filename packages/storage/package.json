@@ -16,5 +16,8 @@
   "dependencies": {
     "@regex-studio/regex-core": "*",
     "dexie": "^4.4.4"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }

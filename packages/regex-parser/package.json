@@ -15,5 +15,8 @@
   },
   "dependencies": {
     "@regex-studio/regex-core": "*"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }

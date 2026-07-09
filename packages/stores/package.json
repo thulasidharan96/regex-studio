@@ -18,5 +18,8 @@
     "@regex-studio/regex-parser": "*",
     "@regex-studio/storage": "*",
     "zustand": "^5.0.14"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
