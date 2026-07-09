@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "experimentalDecorators": true,
+    "useDefineForClassFields": false,
+    "module": "ESNext",
+    "lib": [
+      "ES2022",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "allowJs": true,
+    "jsx": "react-jsx",
+    "strict": true,
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "baseUrl": ".",
+    "paths": {
+      "@regex-studio/regex-core": ["packages/regex-core/src"],
+      "@regex-studio/regex-parser": ["packages/regex-parser/src"],
+      "@regex-studio/regex-compiler": ["packages/regex-compiler/src"],
+      "@regex-studio/regex-debugger": ["packages/regex-debugger/src"],
+      "@regex-studio/regex-analyzer": ["packages/regex-analyzer/src"],
+      "@regex-studio/regex-exporters": ["packages/regex-exporters/src"],
+      "@regex-studio/regex-intelligence": ["packages/regex-intelligence/src"],
+      "@regex-studio/regex-diff": ["packages/regex-diff/src"],
+      "@regex-studio/regex-generator": ["packages/regex-generator/src"],
+      "@regex-studio/storage": ["packages/storage/src"],
+      "@regex-studio/stores": ["packages/stores/src"],
+      "@regex-studio/ui": ["packages/ui/src"]
+    }
+  }
+}

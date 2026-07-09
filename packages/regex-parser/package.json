@@ -1,0 +1,19 @@
+{
+  "name": "@regex-studio/regex-parser",
+  "version": "3.0.0",
+  "description": "Fault-tolerant regular expression parsing and tokenization engine for Regex Studio",
+  "license": "Apache-2.0",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "types": "./src/index.ts",
+  "scripts": {
+    "build": "tsc --noEmit",
+    "typecheck": "tsc --noEmit",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@regex-studio/regex-core": "*"
+  }
+}

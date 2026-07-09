@@ -1,0 +1,45 @@
+{
+  "name": "@regex-studio/web",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port=3000 --host=0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@monaco-editor/react": "^4.7.0",
+    "@regex-studio/regex-core": "*",
+    "@regex-studio/regex-parser": "*",
+    "@regex-studio/regex-compiler": "*",
+    "@regex-studio/regex-analyzer": "*",
+    "@regex-studio/regex-debugger": "*",
+    "@regex-studio/regex-exporters": "*",
+    "@regex-studio/templates": "*",
+    "@regex-studio/flow-engine": "*",
+    "@regex-studio/storage": "*",
+    "@regex-studio/stores": "*",
+    "@regex-studio/ui": "*",
+    "dexie": "^4.4.4",
+    "dexie-react-hooks": "^4.4.0",
+    "lucide-react": "^0.546.0",
+    "lz-string": "^1.5.0",
+    "motion": "^12.23.24",
+    "react": "^19.0.1",
+    "react-dom": "^19.0.1",
+    "reactflow": "^11.11.4",
+    "zustand": "^5.0.14"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.14",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "@vitejs/plugin-react": "^5.0.4",
+    "tailwindcss": "^4.1.14",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.3"
+  }
+}

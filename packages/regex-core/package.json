@@ -1,0 +1,16 @@
+{
+  "name": "@regex-studio/regex-core",
+  "version": "3.0.0",
+  "description": "Core AST definitions, validation schemas, and serialization engine for Regex Studio",
+  "license": "Apache-2.0",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "types": "./src/index.ts",
+  "scripts": {
+    "build": "tsc --noEmit",
+    "typecheck": "tsc --noEmit",
+    "lint": "tsc --noEmit"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Regex Studio",
+  "description": "A professional IDE for visual regular expression design, testing, debugging, and analysis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

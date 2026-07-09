@@ -1,0 +1,19 @@
+{
+  "name": "@regex-studio/regex-diff",
+  "version": "4.0.0",
+  "description": "Abstract Syntax Tree (AST) comparison and differential compilation engine for Regex Studio",
+  "license": "Apache-2.0",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "lint": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "@regex-studio/regex-core": "^3.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}

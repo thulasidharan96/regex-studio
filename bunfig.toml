@@ -1,0 +1,9 @@
+# bunfig.toml
+# Standardized Bun Configuration for Regex Studio
+
+[install]
+cache = true
+lockfile = true
+
+[run]
+silent = false

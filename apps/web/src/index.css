@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --color-sidebar: #0f172a;
+  --color-bg: #020617;
+  --color-input-bg: #1e293b;
+  --color-border-custom: #334155;
+  --color-accent: #3b82f6;
+  --color-success: #10b981;
+}
+
+/* Custom scrollbars for the IDE shell */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
